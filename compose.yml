@@ -1,0 +1,17 @@
+services:
+  openhab:
+    image: "openhab/openhab:5.1.3"
+    restart: always
+    ports:
+      - "8080:8080"
+      - "8443:8443"
+      - "5007:5007"
+    volumes:
+      - "./openhab_addons:/openhab/addons"
+      - "./openhab_conf:/openhab/conf"
+      - "./openhab_userdata:/openhab/userdata"
+    environment:
+      CRYPTO_POLICY: "unlimited"
+      OPENHAB_HTTP_PORT: "8080"
+      OPENHAB_HTTPS_PORT: "8443"
+      TZ: "Europe/Madrid"
