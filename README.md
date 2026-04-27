@@ -578,12 +578,3 @@ curl -X POST http://localhost:8080/rest/items/Luz_Direccion \
 ```
 
 ---
-
-## Criterios de Evaluación (RA3)
-
-| Criterio | Ejercicios |
-|----------|-----------|
-| a) Caracterización del NLP | Fases 2-3: chat con contexto y system prompt |
-| c) Potencial y limitaciones | Fase 7: limitaciones de modelos pequeños con tools |
-| d) Factibilidad de técnicas | Fases 4-5: function calling para control domótico |
-| g) Sistema orientado a tarea | Fases 6-7: sistema reactivo completo |
