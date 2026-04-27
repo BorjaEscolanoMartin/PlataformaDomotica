@@ -1,8 +1,5 @@
-# config.py — Variables compartidas para todos los scripts
-# Reemplazar API_TOKEN con el token generado en OpenHAB tras el primer arranque
-
 OPENHAB_URL = "http://localhost:8080"
-API_TOKEN = "oh.practicaLLM.4cfgpsLWaKMnM6jEw3WxmUKmbbZrZaHjX7bT4yTeddhEdEp9nDoxeHRTx94w4vw91rNjuTleBALX4IOCg"
+API_TOKEN = "your-api-token-here"
 
 HEADERS_REST = {
     "Authorization": f"Bearer {API_TOKEN}",
