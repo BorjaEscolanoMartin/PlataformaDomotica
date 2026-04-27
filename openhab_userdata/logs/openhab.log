@@ -1,0 +1,23 @@
+2026-04-27 12:39:38.891 [INFO ] [org.openhab.core.Activator          ] - Starting openHAB 5.1.3 (Release Build)
+2026-04-27 12:39:41.013 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading DSL model 'ies_sequeros.items'
+2026-04-27 12:39:42.014 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/'s Observer 
+2026-04-27 12:39:42.047 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/favicon.ico's Observer 
+2026-04-27 12:39:42.778 [WARN ] [antics.internal.SemanticsServiceImpl] - Item 'Luz_Conserjeria' (Point): Invalid combination of semantic tags: Switch (Point) and Lightbulb (Equipment). Point and Equipment tags cannot be assigned at the same time.
+2026-04-27 12:39:42.779 [WARN ] [antics.internal.SemanticsServiceImpl] - Item 'Luz_PatioNorte' (Point): Invalid combination of semantic tags: Switch (Point) and Lightbulb (Equipment). Point and Equipment tags cannot be assigned at the same time.
+2026-04-27 12:39:42.779 [WARN ] [antics.internal.SemanticsServiceImpl] - Item 'Luz_Secretaria' (Point): Invalid combination of semantic tags: Switch (Point) and Lightbulb (Equipment). Point and Equipment tags cannot be assigned at the same time.
+2026-04-27 12:39:42.779 [WARN ] [antics.internal.SemanticsServiceImpl] - Item 'Luz_PatioSur' (Point): Invalid combination of semantic tags: Switch (Point) and Lightbulb (Equipment). Point and Equipment tags cannot be assigned at the same time.
+2026-04-27 12:39:42.779 [WARN ] [antics.internal.SemanticsServiceImpl] - Item 'gHVAC_SalaProfesores' (Equipment): Invalid combination of semantic tags: Equipment (Equipment) and HVAC (Equipment). Only one Equipment tag may be assigned.
+2026-04-27 12:39:42.780 [WARN ] [antics.internal.SemanticsServiceImpl] - Item 'Luz_Jefatura' (Point): Invalid combination of semantic tags: Switch (Point) and Lightbulb (Equipment). Point and Equipment tags cannot be assigned at the same time.
+2026-04-27 12:39:42.780 [WARN ] [antics.internal.SemanticsServiceImpl] - Item 'Luz_Direccion' (Point): Invalid combination of semantic tags: Switch (Point) and Lightbulb (Equipment). Point and Equipment tags cannot be assigned at the same time.
+2026-04-27 12:39:42.781 [WARN ] [antics.internal.SemanticsServiceImpl] - Item 'Luz_SalaProfesores' (Point): Invalid combination of semantic tags: Switch (Point) and Lightbulb (Equipment). Point and Equipment tags cannot be assigned at the same time.
+2026-04-27 12:39:43.216 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2026-04-27 12:39:49.254 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2026-04-27 12:41:14.523 [INFO ] [p.auth.internal.AuthorizePageServlet] - First user account created: Borja
+2026-04-27 12:41:20.362 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'Europe/Madrid'.
+2026-04-27 12:41:20.362 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'es_ES'.
+2026-04-27 12:41:47.668 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '38.384099728690884,-0.7685852120630444'.
+2026-04-27 12:42:57.053 [WARN ] [service.internal.HttpServiceDisabled] - Http service has already been stopped
+2026-04-27 12:42:57.324 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/rest/addons/automation-jsscripting's Observer 
+2026-04-27 12:42:58.987 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2026-04-27 12:43:04.149 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'astro:moon:local' to inbox.
+2026-04-27 12:43:04.152 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'astro:sun:local' to inbox.

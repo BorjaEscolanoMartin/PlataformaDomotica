@@ -1,0 +1,45 @@
+// ==============================================================
+// IES SEQUEROS - MODELO COMPLETO CON ILUMINACIÓN
+// ==============================================================
+
+// RAÍZ
+Group gIES           "Instituto de Educación Secundaria Sequeros"  ["Location"]
+
+// EDIFICIOS
+Group gEdificioPrincipal "Edificio Principal de Administración y Aulas" (gIES) ["Building"]
+Group gExteriores        "Zonas Exteriores y Patios de Recreo"         (gIES) ["Outdoor"]
+
+// ==========================================
+// ADMINISTRACIÓN (EDIFICIO PRINCIPAL)
+// ==========================================
+Group gSecretaria      "Oficina de Secretaría"              (gEdificioPrincipal) ["Office"]
+Group gDireccion       "Despacho de Dirección"              (gEdificioPrincipal) ["Office"]
+Group gJefatura        "Despacho de Jefatura de Estudios"   (gEdificioPrincipal) ["Office"]
+Group gConserjeria     "Puesto de Conserjería"              (gEdificioPrincipal) ["Entry"]
+Group gSalaProfesores  "Sala de Reuniones de Profesores"    (gEdificioPrincipal) ["Office"]
+
+// ==========================================
+// PATIOS
+// ==========================================
+Group gPatioNorte  "Zona de Patio Norte"  (gExteriores)  ["Garden"]
+Group gPatioSur    "Zona de Patio Sur"    (gExteriores)  ["Garden"]
+
+// ==========================================
+// BOMBILLAS (una por estancia) - Ejercicio 3
+// ==========================================
+Switch Luz_Secretaria      "Luz de Secretaría"              (gSecretaria)     ["Lightbulb", "Switch", "Bombilla", "Interruptor"]
+Switch Luz_Direccion       "Luz de Dirección"               (gDireccion)      ["Lightbulb", "Switch", "Bombilla", "Interruptor"]
+Switch Luz_Jefatura        "Luz de Jefatura"                (gJefatura)       ["Lightbulb", "Switch", "Bombilla", "Interruptor"]
+Switch Luz_Conserjeria     "Luz de Conserjería"             (gConserjeria)    ["Lightbulb", "Switch", "Bombilla", "Interruptor"]
+Switch Luz_SalaProfesores  "Luz de Sala de Profesores"      (gSalaProfesores) ["Lightbulb", "Switch", "Bombilla", "Interruptor"]
+Switch Luz_PatioNorte      "Luz del Patio Norte"            (gPatioNorte)     ["Lightbulb", "Switch", "Bombilla", "Interruptor"]
+Switch Luz_PatioSur        "Luz del Patio Sur"              (gPatioSur)       ["Lightbulb", "Switch", "Bombilla", "Interruptor"]
+
+// ==========================================
+// CLIMATIZACIÓN SALA PROFESORES - Ejercicio 8
+// ==========================================
+Group gHVAC_SalaProfesores "Aire Acondicionado Central" (gSalaProfesores) ["HVAC", "Equipment", "Climatizacion", "Equipo"]
+
+Switch            AC_Power       "Estado AC"                    (gHVAC_SalaProfesores) ["Switch", "Power", "Interruptor", "Encendido"]
+Number:Temperature AC_CurrentTemp "Temperatura Actual [%.1f °C]" (gHVAC_SalaProfesores) ["Measurement", "Temperature", "Medicion", "Temperatura"]
+Number:Temperature AC_Setpoint    "Temperatura Objetivo [%.1f °C]" (gHVAC_SalaProfesores) ["Setpoint", "Temperature", "Consigna", "Temperatura"]

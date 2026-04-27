@@ -1,0 +1,59 @@
+{
+  "astro:moon:local": {
+    "class": "org.openhab.core.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "astro",
+          "moon",
+          "local"
+        ],
+        "uid": "astro:moon:local"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "astro",
+          "moon"
+        ],
+        "uid": ""
+      },
+      "properties": {
+        "geolocation": "38.384099728690884,-0.7685852120630444"
+      },
+      "representationProperty": "geolocation",
+      "flag": "NEW",
+      "label": "Local Moon",
+      "timestamp": "2026-04-27T10:43:00.539231442Z",
+      "timeToLive": -1
+    }
+  },
+  "astro:sun:local": {
+    "class": "org.openhab.core.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "local"
+        ],
+        "uid": "astro:sun:local"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "astro",
+          "sun"
+        ],
+        "uid": ""
+      },
+      "properties": {
+        "geolocation": "38.384099728690884,-0.7685852120630444",
+        "useMeteorologicalSeason": false
+      },
+      "representationProperty": "geolocation",
+      "flag": "NEW",
+      "label": "Local Sun",
+      "timestamp": "2026-04-27T10:43:00.537848313Z",
+      "timeToLive": -1
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Borja": {
+    "class": "org.openhab.core.auth.ManagedUser",
+    "value": {
+      "name": "Borja",
+      "passwordHash": "2Z+qCl94Z8UJK23Z9rsLpLYfez59XvGbaeWin1QrcMc7uTN9ZEcglbEAo5lTp8AXGiV7FPET3N7+mjzMQi2StA\u003d\u003d",
+      "passwordSalt": "NzuKBq8rjoRirEDYDNZ1s+dUUbc4Er3divn+ZXUra+oU2ktjQYZm1+lJ9qMv8jzwSscVBnRvglPPtydCVEbNNw\u003d\u003d",
+      "roles": [
+        "administrator"
+      ],
+      "sessions": [
+        {
+          "sessionId": "30615701-14f2-4f0b-ab6d-8c105b3037e2",
+          "refreshToken": "8457b4c88ee84d3584904819c494668f",
+          "createdTime": "Apr 27, 2026, 12:41:14 PM",
+          "lastRefreshTime": "Apr 27, 2026, 3:28:00 PM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
+        }
+      ],
+      "apiTokens": [
+        {
+          "name": "practicaLLM",
+          "apiToken": "m/f+JT3Skqo9nTrGWJTJZb7AGMvjNEmMVIqWB1jI9dWI+pgiQC0uzKsneFUZkTN95cY5mK6SoS9+EqeLWMXIHg\u003d\u003d:bXR4gh5ZrNXb24b4McT5SsqZ2rIb9pf1ycXbyfQAuWzPUbBPLRT7cgfImHbFQgyEg3I7vd4KNhvezSAUqVWhgg\u003d\u003d",
+          "createdTime": "Apr 27, 2026, 12:43:57 PM",
+          "scope": ""
+        }
+      ]
+    }
+  }
+}

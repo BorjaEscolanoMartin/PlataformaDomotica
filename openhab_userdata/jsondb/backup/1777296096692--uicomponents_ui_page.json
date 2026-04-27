@@ -1,0 +1,126 @@
+{
+  "overview": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "overview",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "Apr 27, 2026, 12:43:35 PM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Overview"
+      },
+      "slots": {
+        "default": []
+      }
+    }
+  },
+  "page_7f0444e5f9": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "page_7f0444e5f9",
+      "tags": [],
+      "props": {
+        "parameters": [],
+        "parameterGroups": []
+      },
+      "timestamp": "Apr 27, 2026, 3:21:36 PM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Climatización Sala Profe"
+      },
+      "slots": {
+        "canvas": [],
+        "default": [
+          {
+            "component": "oh-block",
+            "config": {},
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-grid-row",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-slider-card",
+                              "config": {
+                                "item": "AC_Setpoint",
+                                "max": 20.02,
+                                "min": 15.0,
+                                "scale": true,
+                                "title": "Temperatura objetivo"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-label-card",
+                              "config": {
+                                "item": "AC_Setpoint",
+                                "title": "Temperatura a lograr"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-slider-card",
+                              "config": {
+                                "item": "AC_CurrentTemp",
+                                "max": 45.0,
+                                "min": -10.0,
+                                "scale": true,
+                                "title": "Sensor temperatura"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "component": "oh-grid-col",
+                        "config": {},
+                        "slots": {
+                          "default": [
+                            {
+                              "component": "oh-toggle-card",
+                              "config": {
+                                "item": "AC_Power",
+                                "title": "Estado aire acondicionado"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "grid": [],
+        "masonry": []
+      }
+    }
+  }
+}

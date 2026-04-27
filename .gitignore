@@ -1,0 +1,22 @@
+# openHAB runtime (NO versionar)
+openhab_userdata/
+userdata/
+cache/
+tmp/
+logs/
+
+# openHAB specific
+openhab_userdata/cache/
+openhab_userdata/tmp/
+openhab_userdata/logs/
+
+# permisos / sistema
+*.lock
+
+# entorno
+.env
+
+# node / python
+node_modules/
+__pycache__/
+*.pyc
