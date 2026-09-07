@@ -24,3 +24,6 @@ __pycache__/
 
 # secrets
 config.py
+
+# Windows/WSL zone identifiers
+*:Zone.Identifier
